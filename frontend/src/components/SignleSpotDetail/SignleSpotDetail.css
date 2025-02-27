@@ -1,0 +1,86 @@
+.SingleSpotDetialPage{
+    margin:10px;
+    padding-left: 20px;
+}
+.theSpotImages{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;     
+    align-items: center;        
+   */ 
+    display: grid;
+    grid-template-columns:  0.6fr 0.4fr;
+    grid-template-areas: 'left' 'right';
+    gap:10px;
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+
+
+}
+.left{
+    grid-area:mainSpotImage;
+}
+.right{
+    grid-area:noPreviewImageswithButton
+}
+.noPreviewImages{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+ 
+
+
+}
+
+.noPreviewImageswithButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     /* 水平居中 */
+    align-items: center;         /* 垂直居中 */
+    gap:5px;
+}
+#noPreviewImagesimgButton{
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid darkred;
+}
+.mainSpotImage{
+    width: 90%;
+    height:auto;
+    border-radius: 3px;
+    box-shadow:  0 -5px 15px rgba(0, 0, 0, 0.3),  
+    0 5px 15px rgba(0, 0, 0, 0.3),  
+    -5px 0 15px rgba(0, 0, 0, 0.3),  
+    5px 0 15px rgba(0, 0, 0, 0.3);   
+    
+}
+.priceAndReview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 2px;
+}
+#noPreviewImagesimg{
+    border-radius: 3px;
+}
+.ownerName{
+    font-size: 28px;
+}
+.spotLocation{
+    font-size: 14px;
+}
+.spotDescription{
+    font-size:16px;
+}

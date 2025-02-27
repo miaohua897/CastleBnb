@@ -1,0 +1,49 @@
+.managespotcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+.managespotletout{
+    width:280px;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid darkslategray;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px darkslategray;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+  
+}
+.managespotletout img{
+    margin-top: 45px;
+    margin-left:10px;
+    width:80%;
+    height: 70%;
+   
+}
+.managespotletout p{
+    margin:2px;
+}
+/* .managespotletout:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+} */
+ .updateDeleteButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap:10px;
+ }
+.updateAspotbutton{
+    border: 2px solid darkcyan;
+    border-radius: 3px;
+    font-weight: bolder;
+}
