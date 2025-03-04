@@ -29,6 +29,18 @@ CastleBnb is a website that provides luxury house for users to book and review. 
 [Feature List](https://github.com/miaohua897/CastleBnb/wiki/Features) |
 [User Stores](https://github.com/miaohua897/CastleBnb/wiki/User-Stories) |
 
+## Landing Page
+
+<img width="1444" alt="Screenshot 2025-03-04 at 8 42 56 AM" src="https://github.com/user-attachments/assets/77bcd194-1d62-41ba-8282-90917eb79235" />
+
+## Spot Management
+
+<img width="1438" alt="Screenshot 2025-03-04 at 8 43 56 AM" src="https://github.com/user-attachments/assets/6340c46b-44b5-4ac0-a67e-933198ed18f1" />
+
+## Reviews Management
+
+<img width="1428" alt="Screenshot 2025-03-04 at 8 44 10 AM" src="https://github.com/user-attachments/assets/db08f77b-b610-49ab-8262-9c78be8eba6a" />
+
 
 ## API Documentation
 
