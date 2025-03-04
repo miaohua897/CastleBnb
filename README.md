@@ -33,6 +33,10 @@ CastleBnb is a website that provides luxury house for users to book and review. 
 
 <img width="1423" alt="Screenshot 2025-03-04 at 10 54 02 AM" src="https://github.com/user-attachments/assets/788f9530-88a0-4691-b074-e8bca68aae98" />
 
+## Spot Detail
+
+https://github.com/user-attachments/assets/41ce648c-a2b4-43b0-a672-5c235d1a8325
+
 ## Spot Management
 
 <img width="1426" alt="Screenshot 2025-03-04 at 10 54 26 AM" src="https://github.com/user-attachments/assets/47dca07a-df4f-4b98-b7a7-f6d7012fb227" />
