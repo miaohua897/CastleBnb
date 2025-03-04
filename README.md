@@ -23,6 +23,13 @@ CastleBnb is a website that provides luxury house for users to book and review. 
 **Hosting:**    
 [![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 
+
+## Index
+[Database-Scheme](https://github.com/miaohua897/CastleBnb/wiki/Database-Schema#schema) |
+[Feature List](https://github.com/miaohua897/CastleBnb/wiki/Features) |
+[User Stores](https://github.com/miaohua897/CastleBnb/wiki/User-Stories) |
+
+
 ## API Documentation
 
 API Documentation
