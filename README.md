@@ -1,5 +1,5 @@
 
-# [ CastleBnb_project]
+# CastleBnb Project
 
 CastleBnb is a website that provides luxury house for users to book and review. The user can also create a spot, manage spots and reviews.
 
@@ -35,7 +35,8 @@ CastleBnb is a website that provides luxury house for users to book and review. 
 
 ## Spot Detail
 
-https://github.com/user-attachments/assets/41ce648c-a2b4-43b0-a672-5c235d1a8325
+<img width="1439" alt="Screenshot 2025-03-04 at 2 53 05 PM" src="https://github.com/user-attachments/assets/7f203de2-a46e-48ec-be37-b634f7275d09" />
+
 
 ## Spot Management
 
@@ -43,7 +44,8 @@ https://github.com/user-attachments/assets/41ce648c-a2b4-43b0-a672-5c235d1a8325
 
 ## Reviews Management
 
-https://github.com/user-attachments/assets/410b6436-12c0-4f3f-bf2e-0899a597c135
+<img width="1443" alt="Screenshot 2025-03-04 at 2 53 22 PM" src="https://github.com/user-attachments/assets/2372ae4e-bc5a-4133-b62b-1e0386790996" />
+
 
 
 ------------------------------------------------------------------------------------------------------------
@@ -1606,6 +1608,12 @@ Body:
 1. Spot Features   
 2. Reviews Features 
 
+## Future Features
+1. Booking Features
+2. Review Image Features
+3. Spot Image Features
+
+   
 ## Contact 
 
 [Miaohua](https://github.com/miaohua897)
