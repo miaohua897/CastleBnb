@@ -5,7 +5,23 @@ CastleBnb is a website that provides luxury house for users to book and review. 
 
 ## Live Link
 
-[CastleBnb](https://castlebnb-7e4w.onrender.com)
+🏰 [CastleBnb](https://castlebnb-7e4w.onrender.com)
+
+## Tech Stack
+**Frameworks and Libraries:**     
+[![Express](https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![Node](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)](https://nodejs.org/en)
+[![React](https://img.shields.io/badge/react-black?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/-Redux-black?style=for-the-badge&logo=redux)](https://redux.js.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Html5](https://img.shields.io/badge/-Html5-black?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+[![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+**Database:**     
+[![Sequelize](https://img.shields.io/badge/-Sequelize-52B0E7?style=flat&logo=sequelize&logoColor=white)](https://sequelize.org/)
+
+**Hosting:**    
+[![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 
 ## API Documentation
 
