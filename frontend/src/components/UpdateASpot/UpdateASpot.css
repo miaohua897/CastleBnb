@@ -1,5 +1,4 @@
 .BackMangeSpotButton{
-    /* border: 2px solid darkcyan; */
     background-color: transparent;
     border: none;
     border-radius: 3px;
@@ -37,6 +36,5 @@
 .cityNstateUpdate{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
     gap:10px;
 }

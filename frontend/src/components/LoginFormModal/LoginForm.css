@@ -1,5 +1,5 @@
 .LoginFormModal{
-    /* display: none;  */
+
     position: fixed;
     z-index: 1;
     left: 0;
@@ -13,8 +13,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center;    */
+
     margin: 0 auto; 
     border-radius: 5px;
 }
@@ -25,9 +24,7 @@
 .logninContainerhidden{
     display: none;
 }
-/* #closeloginform{
-    left:0;
-} */
+
  .loginFormContainer{
     display: flex;
     flex-direction: column;
@@ -41,7 +38,7 @@
     border: none;
  }
  .submitLoginButton{
-    background-color: darkcyan;
+    background-color:  rgb(243, 96, 96);
     margin-bottom: 10px;
     color: aliceblue;
     border:none

@@ -16,9 +16,7 @@
     box-shadow: 0 4px 8px rgb(79, 47, 47);
     margin: 15px;
     padding: 10px;
-    text-align: center;
-    /* transition: transform 0.3s, box-shadow 0.3s; */
-  
+    text-align: center;  
 }
 .managespotletout img{
     margin-top: 45px;
@@ -30,10 +28,7 @@
 .managespotletout p{
     margin:2px;
 }
-/* .managespotletout:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-} */
+
  .updateDeleteButton{
     display: flex;
     flex-direction: row;
