@@ -25,20 +25,20 @@
   
 }
 .deleteAspotbutton{
-    border: 2px solid darkcyan;
+    border: 2px solid  rgb(243, 96, 96);
     border-radius: 3px;
     font-weight: bolder;
 
     
 }
 .handledeletespot {
-    border: 2px solid darkcyan;
+    border: 2px solid  rgb(243, 96, 96);
     border-radius: 3px;
     font-weight: bolder;
     margin:10px;
 }
 .handledNoeletespot{
-    border: 2px solid darkcyan;
+    border: 2px solid  rgb(243, 96, 96);
     border-radius: 3px;
     font-weight: bolder;
     margin:10px;
