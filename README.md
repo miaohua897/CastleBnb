@@ -1,19 +1,10 @@
 
 # [ CastleBnb_project]
 
-## Database Schema Design
 
-![db-schema]
-
-[db-schema]: ./images/example.png
 
 
 ## API Documentation
-<name of application here>
-
-Database Schema Design
-
-alt text
 
 API Documentation
 
@@ -59,8 +50,8 @@ Require Authentication: false
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/session
 Body: none
 Successful Response when there is a logged in user
 
@@ -100,9 +91,9 @@ Require Authentication: false
 
 Request
 
-Method: ?
+Method: POST
 
-Route path: ?
+Route path: /api/session
 
 Headers:
 
@@ -167,9 +158,9 @@ Require Authentication: false
 
 Request
 
-Method: ?
+Method: POST
 
-Route path: ?
+Route path: /api/users
 
 Headers:
 
@@ -286,8 +277,8 @@ Require Authentication: true
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/spots/current
 Body: none
 Successful Response
 
@@ -327,8 +318,8 @@ Require Authentication: false
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/spots/:spotId
 Body: none
 Successful Response
 
@@ -393,9 +384,9 @@ Require Authentication: true
 
 Request
 
-Method: ?
+Method: POST
 
-Route path: ?
+Route path: /api/spots
 
 Headers:
 
@@ -470,9 +461,9 @@ Require proper authorization: Spot must belong to the current user
 
 Request
 
-Method: ?
+Method: POST
 
-Route path: ?
+Route path: /api/spots/:spotId/images
 
 Headers:
 
@@ -519,9 +510,9 @@ Require proper authorization: Spot must belong to the current user
 
 Request
 
-Method: ?
+Method: PUT
 
-Route path: ?
+Route path: /api/spots/:spotId
 
 Headers:
 
@@ -608,8 +599,8 @@ Require proper authorization: Spot must belong to the current user
 
 Request
 
-Method: ?
-Route path: ?
+Method: DELETE
+Route path: /api/spots/:spotId
 Body: none
 Successful Response
 
@@ -645,8 +636,8 @@ Require Authentication: true
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/reviews/current
 Body: none
 Successful Response
 
@@ -702,8 +693,8 @@ Require Authentication: false
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/spots/:spotId/reviews
 Body: none
 Successful Response
 
@@ -758,9 +749,9 @@ Require Authentication: true
 
 Request
 
-Method: ?
+Method: POST
 
-Route path: ?
+Route path: /api/spots/:spotId/reviews
 
 Headers:
 
@@ -839,9 +830,9 @@ Require proper authorization: Review must belong to the current user
 
 Request
 
-Method: ?
+Method: POST
 
-Route path: ?
+Route path: /api/reviews/:reviewId/images
 
 Headers:
 
@@ -898,9 +889,9 @@ Require proper authorization: Review must belong to the current user
 
 Request
 
-Method: ?
+Method: PUT
 
-Route path: ?
+Route path: /api/reviews/:reviewId
 
 Headers:
 
@@ -967,8 +958,8 @@ Require proper authorization: Review must belong to the current user
 
 Request
 
-Method: ?
-Route path: ?
+Method: DELETE
+Route path: /api/reviews/:reviewId
 Body: none
 Successful Response
 
@@ -1004,8 +995,8 @@ Require Authentication: true
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/bookings/current
 Body: none
 Successful Response
 
@@ -1050,8 +1041,8 @@ Require Authentication: true
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/spots/:spotId/bookings
 Body: none
 Successful Response: If you ARE NOT the owner of the spot.
 
@@ -1120,9 +1111,9 @@ Require proper authorization: Spot must NOT belong to the current user
 
 Request
 
-Method: ?
+Method: POST
 
-Route path: ?
+Route path: /api/spots/:spotId/bookings
 
 Headers:
 
@@ -1205,9 +1196,9 @@ Require proper authorization: Booking must belong to the current user
 
 Request
 
-Method: ?
+Method: PUT
 
-Route path: ?
+Route path: /api/bookings/:bookingId
 
 Headers:
 
@@ -1302,8 +1293,8 @@ Require proper authorization: Booking must belong to the current user or the Spo
 
 Request
 
-Method: ?
-Route path: ?
+Method: DELETE
+Route path: /api/bookings/:bookingId
 Body: none
 Successful Response
 
@@ -1353,8 +1344,8 @@ Require proper authorization: Spot must belong to the current user
 
 Request
 
-Method: ?
-Route path: ?
+Method: DELETE
+Route path: /api/spot-images/:imageId
 Body: none
 Successful Response
 
@@ -1390,8 +1381,8 @@ Require proper authorization: Review must belong to the current user
 
 Request
 
-Method: ?
-Route path: ?
+Method: DELETE
+Route path: /api/review-images/:imageId
 Body: none
 Successful Response
 
@@ -1425,8 +1416,8 @@ Require Authentication: false
 
 Request
 
-Method: ?
-Route path: ?
+Method: GET
+Route path: /api/spots
 Query Parameters
 page: integer, minimum: 1, default: 1
 size: integer, minimum: 1, maximum: 20, default: 20
@@ -1490,4 +1481,4 @@ Body:
     "minPrice": "Minimum price must be greater than or equal to 0",
     "maxPrice": "Maximum price must be greater than or equal to 0"
   }
-}# CastleBnb
+}
