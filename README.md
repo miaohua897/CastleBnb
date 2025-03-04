@@ -1603,8 +1603,8 @@ Body:
 ```
 ## Feature List
 
-1. Spot   
-2. Reviews  
+1. Spot Features   
+2. Reviews Features 
 
 ## Contact 
 
