@@ -3,6 +3,10 @@
 
 CastleBnb is a website that provides luxury house for users to book and review. The user can also create a spot, manage spots and reviews.
 
+## Live Link
+
+[CastleBnb](https://castlebnb-7e4w.onrender.com)
+
 ## API Documentation
 
 API Documentation
