@@ -76,6 +76,7 @@ Body:
 {
   "message": "Authentication required"
 }
+```
 All endpoints that require proper authorization
 
 All endpoints that require authentication and the current user does not have the correct role(s) or permission(s).
