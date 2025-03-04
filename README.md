@@ -67,6 +67,11 @@ Headers:
 
 Content-Type: application/json
 Body:
+```json
+{ 
+  "message": "Authentication required" 
+}
+
 
 {
   "message": "Authentication required"
