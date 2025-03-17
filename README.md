@@ -6,6 +6,8 @@ CastleBnb is a website that provides luxury house for users to book and review. 
 ## Live Link
 
 🏰 [CastleBnb](https://castlebnb-7e4w.onrender.com)
+🏰 [CastleBnb/websocket/discussion](https://castlebnb-websocket.onrender.com) (still working on feature, code coming soon)
+
 
 ## Tech Stack
 **Frameworks and Libraries:**     
